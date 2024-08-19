@@ -5,6 +5,7 @@ public class Operadores {
         System.out.println("Atribuição operador de  [=] ");
         int numero01 = 0;
         numero01 = 10;
+        System.out.println(numero01);
         System.out.println("****************************************");
 
         System.out.println("****************************************");
@@ -37,11 +38,10 @@ public class Operadores {
 
         //Realizar estudos nos operadores abaixo,
         System.out.println("Operadores de Igualdade == ");
-        System.out.println("Operadores Aritimeticos + - * /  ");
+        System.out.println("Operadores Aritmeticos + - * /  ");
         System.out.println("Operadores Relacionais  < > <= >=  !=");
         System.out.println("Operadores logicos  &&   ||   ");
         System.out.println("****************************************");
-
     }
 
 }
