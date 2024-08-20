@@ -42,5 +42,10 @@ public class Usuario {
         objTv.mudaCanal(10);
         System.out.println("Canal =  " + objTv.canal);
 
+        objTv.desligar();
+        System.out.println("TV está ligada? " + objTv.ligada);
+        System.out.println("Canal =  " + objTv.canal);
+        System.out.println("Volume =  " + objTv.volume);
+
     }
 }
